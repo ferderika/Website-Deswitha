@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reading Comprehension Digital Test (B1)</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>📖 Reading Comprehension Test</h1>
+    <p class="level">✨ Intermediate (B1)</p>
+
+    <div class="card passage">
+      <h2>Reading Passage 📚</h2>
+      <p>
+        Last summer, Ana and her family went to Bali for a holiday. They visited beaches, museums, and traditional markets.
+        Ana bought souvenirs and took many photos. On the last day, they enjoyed watching a traditional Balinese dance before returning home.
+        Ana felt very happy because it was her first time visiting Bali. The weather was sunny, and the people were friendly.
+        She promised to visit again someday.
+      </p>
+    </div>
+
+    <form id="quizForm">
+
+      <h2>Multiple Choice 🎯</h2>
+
+      <div class="card question">
+        <p>1️⃣ What is the main idea of the passage?</p>
+        <label><input type="radio" name="q1" value="B"> a. Ana and her family enjoyed a holiday in Bali.</label><br>
+        <label><input type="radio" name="q1" value="A"> b. Ana stayed home last summer.</label><br>
+        <label><input type="radio" name="q1" value="C"> c. Ana bought a new house in Bali.</label><br>
+        <label><input type="radio" name="q1" value="D"> d. Ana went to school in Bali.</label>
+      </div>
+
+      <div class="card question">
+        <p>2️⃣ What did Ana buy during her holiday?</p>
+        <label><input type="radio" name="q2" value="C"> a. Souvenirs</label><br>
+        <label><input type="radio" name="q2" value="A"> b. Clothes</label><br>
+        <label><input type="radio" name="q2" value="B"> c. Food</label><br>
+        <label><input type="radio" name="q2" value="D"> d. Books</label>
+      </div>
+
+      <div class="card question">
+        <p>3️⃣ Where did Ana watch a traditional Balinese dance?</p>
+        <label><input type="radio" name="q3" value="B"> a. On the last day of her holiday</label><br>
+        <label><input type="radio" name="q3" value="A"> b. At the beach</label><br>
+        <label><input type="radio" name="q3" value="C"> c. In a museum</label><br>
+        <label><input type="radio" name="q3" value="D"> d. At the airport</label>
+      </div>
+
+      <div class="card question">
+        <p>4️⃣ How was the weather during Ana’s holiday?</p>
+        <label><input type="radio" name="q4" value="C"> a. Sunny</label><br>
+        <label><input type="radio" name="q4" value="A"> b.  Rainy</label><br>
+        <label><input type="radio" name="q4" value="B"> c. Cloudy</label><br>
+        <label><input type="radio" name="q4" value="D"> d. Cold</label>
+      </div>
+
+      <div class="card question">
+        <p>5️⃣ How did Ana feel about her holiday?</p>
+        <label><input type="radio" name="q5" value="B"> a. Happy</label><br>
+        <label><input type="radio" name="q5" value="A"> b. Sad</label><br>
+        <label><input type="radio" name="q5" value="C"> c. Bored</label><br>
+        <label><input type="radio" name="q5" value="D"> d. Angry</label>
+      </div>
+
+      <h2>True / False ✅❌</h2>
+
+      <div class="card question">
+        <p>6️⃣ Ana and her family went to Lombok for a holiday.</p>
+        <label><input type="radio" name="q6" value="False"> False</label>
+        <label><input type="radio" name="q6" value="True"> True</label>
+      </div>
+
+      <div class="card question">
+        <p>7️⃣ Ana promised to visit Bali again someday.</p>
+        <label><input type="radio" name="q7" value="True"> True</label>
+        <label><input type="radio" name="q7" value="False"> False</label>
+      </div>
+
+      <div class="card question">
+        <p>8️⃣ Ana’s family watched a football match in Bali.</p>
+        <label><input type="radio" name="q8" value="False"> False</label>
+        <label><input type="radio" name="q8" value="True"> True</label>
+      </div>
+
+      <button type="button" class="submit-btn" onclick="checkAnswers()">Submit</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
